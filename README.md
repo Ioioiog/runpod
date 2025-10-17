@@ -1,6 +1,6 @@
 # RunPod AI Event Detection
 
-[![RunPod](https://img.shields.io/badge/RunPod-Serverless-purple)](https://runpod.io)
+[![Runpod](https://api.runpod.io/badge/Ioioiog/runpod)](https://console.runpod.io/hub/Ioioiog/runpod)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
 [![CUDA](https://img.shields.io/badge/CUDA-11.8-green)](https://developer.nvidia.com/cuda-toolkit)
 
