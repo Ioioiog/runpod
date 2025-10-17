@@ -1,6 +1,10 @@
 # RunPod AI Event Detection
 
-This directory contains the RunPod serverless handler for AI-powered event detection.
+[![RunPod](https://img.shields.io/badge/RunPod-Serverless-purple)](https://runpod.io)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
+[![CUDA](https://img.shields.io/badge/CUDA-11.8-green)](https://developer.nvidia.com/cuda-toolkit)
+
+AI-powered event detection system using YOLOv8n, BLIP-2, and NSFW filtering for real-time event reporting.
 
 ## Features
 

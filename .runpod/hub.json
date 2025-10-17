@@ -1,0 +1,23 @@
+{
+  "name": "Event Detection AI",
+  "version": "1.0.0",
+  "description": "AI-powered event detection using YOLOv8n, BLIP-2, and NSFW filtering for real-time event reporting",
+  "category": "AI/ML",
+  "tags": ["yolo", "computer-vision", "image-captioning", "object-detection", "nsfw-filter"],
+  "runtime": {
+    "handler": "handler.py",
+    "python_version": "3.10",
+    "cuda_version": "11.8"
+  },
+  "env": {
+    "MODEL_CACHE_DIR": "/runpod-volume/models"
+  },
+  "resources": {
+    "gpu": "T4",
+    "cpu": 2,
+    "memory": "8Gi",
+    "disk": "10Gi"
+  },
+  "timeout": 30,
+  "container_disk_size_gb": 10
+}

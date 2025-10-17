@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "tests": [
+    {
+      "name": "Basic Detection Test",
+      "input": {
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+        "tasks": ["detect"]
+      },
+      "expected_output": {
+        "event_type": "string",
+        "confidence": "number"
+      }
+    },
+    {
+      "name": "Full Pipeline Test",
+      "input": {
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+        "tasks": ["detect", "caption", "nsfw", "blur"]
+      },
+      "expected_output": {
+        "event_type": "string",
+        "confidence": "number",
+        "caption": "string",
+        "nsfw_score": "number",
+        "is_safe": "boolean",
+        "blurred_image": "string"
+      }
+    }
+  ]
+}
