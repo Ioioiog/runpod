@@ -118,3 +118,5 @@ Formula: `events × 0.2s × $0.00019/s = cost`
 ## Support
 
 For issues, contact: support@martor.online
+
+[![Runpod](https://api.runpod.io/badge/Ioioiog/runpod)](https://console.runpod.io/hub/Ioioiog/runpod)
