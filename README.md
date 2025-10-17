@@ -1,6 +1,7 @@
 # RunPod AI Event Detection
 
 [![Runpod](https://api.runpod.io/badge/Ioioiog/runpod)](https://console.runpod.io/hub/Ioioiog/runpod)
+[![Runpod Status](https://api.runpod.io/status-badge/Ioioiog/runpod)](https://console.runpod.io/hub/Ioioiog/runpod)
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
 [![CUDA](https://img.shields.io/badge/CUDA-11.8-green)](https://developer.nvidia.com/cuda-toolkit)
 
@@ -14,6 +15,8 @@ AI-powered event detection system using YOLOv8n, BLIP-2, and NSFW filtering for 
 - **Face/Plate Blur**: Privacy protection
 
 ## Deployment
+
+The status badge at the top of this README reflects the current health of the RunPod endpoint.
 
 ### 1. Build Docker Image
 
